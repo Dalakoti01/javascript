@@ -32,4 +32,57 @@ let someNummber = 33
 let stringNumber = String(someNummber)
 console.log(stringNumber);
 console.log(typeof stringNumber);
+
+// ********* Operator **********
+
+let value = 3
+let negValue = -value
+console.log(negValue);
+
+// console.log(2+2);
+// console.log(2-2);
+// console.log(2*2);
+// console.log(2**3);
+// console.log(2/3);
+// console.log(2%3);
+
+let str1 = "Hello"
+let str2 = " Karan"
+let str3 = str1 + str2
+console.log(str3);
+
+console.log("1" + 2);
+console.log(1 + "2");
+console.log("1" + 2 + 2); // this output is due to the guidelines of ecma script
+console.log(1 + 2 + "2");// this output is due to the guidelines of ecma script
+console.log(3 + 4 * 5 / 2);// this kind of code is not at all reccommended so readability should be considered the most
+
+console.log(true);
+console.log(+true);
+
+let num1,num2,num3
+num1 = num2 = num3 = 2 + 2 // this kind of code is also not considered as a good readable code so avoid it
+
+let gameCounter  =100
+++gameCounter
+console.log(gameCounter);
+
+// prefix and postfix increamental operator
+
+//prefix
+let x = 3
+const y = ++x
+console.log(x,y);
+
+//postfix
+
+let a = 3
+const b = a++
+console.log(a,b);
+
+
+
+
+
+
                             
