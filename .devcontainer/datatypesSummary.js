@@ -41,3 +41,27 @@ const func1 = function(){
 }
 
 console.log(typeof func1);
+
+// ******************************************************************************************************************
+
+// Stack(Primitive ), Heap (Non - Primitive)
+
+// In stack call by value (copy is generated, no change in the original value)
+// In heap call by reference (reference of the real data is allocated so the change in the variable will account in the change in 
+// original data stored )
+
+let youTubename = "hiteshchaudhary.com"
+let anotherName = youTubename
+anotherName = "chai or code"
+console.log(youTubename);
+console.log(anotherName);
+
+let userOne = {
+    email : "user@google.com" ,
+    upi : "ybn@oksbi"
+}
+
+let userTwo = userOne
+userTwo.email = "karan@google.com"
+console.log(userOne.email);
+console.log(userTwo.email);
